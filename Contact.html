@@ -1,8 +1,6 @@
-<!--add picture of some of my hobbies and description of my hobbies and things I like to do.-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>About me</title>
     <style>
       header {
         background-color: rgb(8, 6, 6);
@@ -28,15 +26,11 @@
         margin-top: 70px;
       }
     </style>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
   </head>
-
   <body>
-    <h1>About Me</h1>
-    <h2>Some of my hobbies are snowmobiling and snowboarding</h2>
-    <img src="https://i.redd.it/cvmqe8fj2nj61.jpg" style="width: 200px" />
     <header>
       <span>Luke Earl</span>
       <!--links to different pages-->
@@ -45,5 +39,17 @@
       <a href="portfolio.html">Portfolio</a>
       <a href="Contact.html">Contact</a>
     </header>
+    <h2>Contact Us</h2>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+  <input type="submit" value="Submit">
+</form>
   </body>
 </html>
